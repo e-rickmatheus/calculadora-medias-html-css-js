@@ -2,7 +2,7 @@
 
 [![Edit in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/e-rickmatheus/calculadora-medias-html-css-js)
 
-Este projeto foi desenvolvido durante o curso [Lógica de Programação](https://cursos.betrybe.com/191918-logica-de-programacao) da Trybe. A calculadora de médias é uma aplicação simples que permite calcular a média de notas inseridas pelo usuário utilizando tecnologias como **HTML**, **CSS** e **JavaScript**.
+Este projeto foi desenvolvido durante o curso [Lógica de Programação](https://cursos.betrybe.com/191918-logica-de-programacao) da [Trybe](https://betrybe.com/). A calculadora de médias é uma aplicação simples que permite calcular a média de notas inseridas pelo usuário utilizando tecnologias como **HTML**, **CSS** e **JavaScript**.
 
 ---
 
