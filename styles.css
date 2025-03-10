@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+  display: flex; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Define a altura da página como 100% da viewport */
+  background-color: #f3f3f3; /* Define a cor de fundo da página */
+}
+
+h1 {
+  color: black; /* Cor do texto */
+  font-size: 15px; /* Tamanho da fonte */
+  text-align: center; /* Centraliza o texto na página */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  margin-top: 20px; /* Adiciona espaço acima do título */
+  margin-bottom: 20px; /*Adiciona espaço embaixo do título */
+}
+
+.calculator {
+  padding: 20px; /* Adiciona espaço interno ao container */
+  background-color: #fefefe; /* Define a cor de fundo do container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+  border-radius: 5px; /* Arredonda as bordas do container */
+}
+
+.btn1 {
+  padding: 5px 15px; /* Adiciona espaço interno ao botão */
+  background-color: #4A59E0; /* Define a cor de fundo do botão */
+  color: #ffffff; /* Define a cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 3px; /* Arredonda as bordas do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  font-weight: lighter /* Altera o peso da fonte */
+}
+
+.btn2 {
+  padding: 5px 15px; /* Adiciona espaço interno ao botão */
+  background-color: #8B94B6; /* Define a cor de fundo do botão */
+  color: #ffffff; /* Define a cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 3px; /* Arredonda as bordas do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  font-weight: bold /* Altera o peso da fonte */
+}
+
+
+input {
+  border: 1px solid black; /* Define a borda do campo de input */
+  border-radius: 5px; /* Arredonda as bordas do campo de input */
+  padding: 5px; /* Adiciona espaço interno ao campo de input */
+}
+
+#result {
+  padding: 20px; /* Adiciona espaço interno ao parágrafo de resultados */
+  border-radius: 10px; /* Arredonda as bordas do parágrafo */
+}
+
+.aprovado {
+  background-color: green; /* Define a cor de fundo para aprovação */
+  color: white; /* Define a cor do texto para branco */
+}
+
+.reprovado {
+  background-color: red; /* Define a cor de fundo para reprovação */
+  color: white; /* Define a cor do texto para branco */
+}

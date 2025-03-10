@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante responsividade -->
+    <title>Calculadora de Médias</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="./styles.css"> <!-- Importa o arquivo CSS -->
+</head>
+<body>
+    <div class="calculator"> <!-- Container principal da calculadora -->
+        <h1>Calculadora de Médias</h1> <!-- Título da aplicação -->
+        <div id="inputs"> <!-- Div para os inputs e botão de adicionar nota -->
+            <input type="number" placeholder="Insira a Nota" id="nota" /> <!-- Campo para inserir a nota -->
+            <button class="btn1" onclick="adicionarNota()">Adicionar Nota</button> <!-- Botão para adicionar a nota -->
+        </div>
+        <ul id="notas"></ul> <!-- Lista para exibir as notas adicionadas -->
+        <button class="btn2" onclick="calcularMedia()">Calcular Média</button> <!-- Botão para calcular a média -->
+        <p id="result"></p> <!-- Parágrafo para exibir o resultado da média -->
+    </div>
+    <script src="./script.js"></script> <!-- Importa o arquivo JavaScript -->
+</body>
+</html>
+
